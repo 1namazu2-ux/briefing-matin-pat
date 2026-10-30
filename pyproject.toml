@@ -1,0 +1,8 @@
+[project]
+name = "briefing-matin-pat"
+version = "0.1.0"
+description = "Briefing quotidien 6h20 : agendas Google compiles et envoyes par email."
+requires-python = ">=3.12"
+dependencies = [
+    "mistralai-workflows[mistralai]>=3.10",
+]
